@@ -18,6 +18,32 @@ Questo errore dipende dalle impostazioni di security policy attivate nel pc loca
 2. Eseguire il comando ```Set-ExecutionPolicy RemoteSigned``` per cambiare le impostazioni del gruppo ```LocalMachine```
 3. Per visualizzare se il comando è andato a buon fine, eseguire nuovamente il comando ```Get-ExecutionPolicy -List```.
 
+In python le variabili devono essere valorizzate nel momento in cui vengono dichiarate o nel momento in cui si ha bisogno. Una variabile 
+può contenere diversi **tipi** di oggetti. Come in tutti i linguaggi, si attribuisce un nome alle variabili che identificano il significato della 
+variabile. Possono essere utilizzati diversi case, anche tutto in maiuscolo. E' vietato inserire un numero a inizio variabile, oppure utilizzare un trattino.
+
+Vi sono diversi tipi di dati che possiamo gestire in python, inoltre una stessa variabile può contenere diversi tipologie di dati durante l'esecuzione 
+del programma. I principali tipi di dati semplici sono:
+
+- Stringhe: "ciao"
+- Interi: 5
+- float: 5.5
+- booleani: True/False
+
+Ci sono anche altri tipi di dati più complessi che prendono il nome di collezioni:
+
+- Liste: ["roma","milano"]
+- tuple: ("roma","milano")
+- range: range(6)
+- dizionario: {"nome":"Federico", "eta":25}
+- insiemi: {"roma","Lecce"}
+
+La differenza tra tuple e liste consiste nel fatto che le liste contengono un insieme di dati che possono essere modificati o al quale si può 
+aggiungere altri tipi di dati, mentre le tuple contengono un insieme di dati che non possono essere modificati.
+
+Le stringhe vengono considerate come degli array, ogni lettera e ogni spazio ha un indice di riferimento. Il primo indice 
+ha valore 0
+
 
 ## Materiale
 

@@ -1,16 +1,37 @@
-# This is a sample Python script.
-
-# Press Maiusc+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    #Attribuire diversi valori alle variabili
+    x = 5
+    y = 8
+    z,p,l=10,20,30
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    citta = ["roma", "milano", "lecce"]
+    c1,c2,c3 = citta
+
+    # Stringa
+    x = "ciao"
+    print(type(x))
+
+    # intero
+    x = 20
+
+    # float
+    x = 20.5
+    #bool
+    x = True
+
+    #list
+    x = ["roma", "milano", "lecce"]
+
+    # tuple
+    x = ("roma", "milano", "lecce")
+
+    # range
+    x = range(6)
+
+    # dict
+    x = {"nome": "Luca", "eta": 25}
+
+    # set
+    x = {"roma", "milano"}
