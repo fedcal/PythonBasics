@@ -52,3 +52,7 @@ def main():
 
     # Se dovessimo copiare la lista x in un'altra lista ci basterebbe fare:
     pluto = x.copy()
+
+    # Per verificare se esiste un elemento il una tupla
+    if "ciao" in y:
+        print("ok")
