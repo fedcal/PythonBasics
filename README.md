@@ -38,8 +38,20 @@ Ci sono anche altri tipi di dati più complessi che prendono il nome di collezio
 - dizionario: {"nome":"Federico", "eta":25}
 - insiemi: {"roma","Lecce"}
 
+Le proprietà basilari di una collezione sono:
+1. _ordinamento_: la collezione contiene eleemmmnti che seguono un determinato ordine e l'aggiunta di un nuovo elemento non incide su questo
+2. _indicizzazione_: possiamo accedere agli elementi di una collezione tramite un indice
+3. _modificabile_: possiamo aggiungere, cambiare e rimuovere gli elementi della collezione
+4. _immutabile_: non possiamo aggiungere, cambiare e rimuovere gli elementi
+5. _elementi duplicati_: possiamo inserire all'interno della collezione più elementi con lo stesso valore
+
 La differenza tra tuple e liste consiste nel fatto che le liste contengono un insieme di dati che possono essere modificati o al quale si può 
-aggiungere altri tipi di dati, mentre le tuple contengono un insieme di dati che non possono essere modificati.
+aggiungere altri tipi di dati, mentre le tuple contengono un insieme di dati che non possono essere modificati. Entrambe queste collezioni sono ordinate.
+
+Gli insiemi richiamano il relativo concetto matematico, non sono ordinati e non hanno un indice. I dizionari corrispondono ai map in Java,
+ovvero una particolare struttura di dati chiave valore.
+Gli insiemi non hanno un ordinamento, non sono indicizzati, ma le chiavi rappresentano una 
+sorta di chiave di accesso. Questo fa si che gli insiemi non sono modificabili. Gli insiemi e i dizionari non permettono duplicati.
 
 Le stringhe vengono considerate come degli array, ogni lettera e ogni spazio ha un indice di riferimento. Il primo indice 
 ha valore 0
