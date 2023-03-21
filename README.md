@@ -56,6 +56,26 @@ sorta di chiave di accesso. Questo fa si che gli insiemi non sono modificabili. 
 Le stringhe vengono considerate come degli array, ogni lettera e ogni spazio ha un indice di riferimento. Il primo indice 
 ha valore 0
 
+### Lavorare con i file
+Vi sono diversi tipi per memorizzare le informazioni. In base a ciò che serve vengono utilizzati i file o un database. 
+Inziamo ad analizzare i file e vediamo come scriverci dentro.
+
+Prima di analizzare le funzioni per la creazione, lettura, scrittura e modifica di un file di testo, vediamo i diversi modi
+di aprire un file:
+
+| Simbolo |              Significato               |
+|:-------:|:--------------------------------------:|
+|    w    |      Aprire un file in scrittura       |
+|    r    |       Aprire un file in lettura        |
+|    x    |           Creazione del file           |
+|    a    | Aprire un file per aggiungere qualcosa |
+
+Inoltre si può decidere se aprire il file in modalità binaria, con il simbolo ```b```, o in modalità testuale, con il 
+simbolo ```t```. Quindi potremmo avere delle combinazioni del tipo ```wb``` per aprire un file binario e scriverci dentro 
+qualcosa.
+
+Per aprire un file si utilizza il metodo open() in questo modo: ```nome variabile = open("percorso_file", "modalità_di_aperutra")```
+
 
 ## Materiale
 
