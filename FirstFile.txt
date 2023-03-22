@@ -1,0 +1,4 @@
+Questo è il primo file di testo generato con python
+nome:Federico
+cognome:Calò
+età:25
