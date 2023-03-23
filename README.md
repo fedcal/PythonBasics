@@ -117,6 +117,39 @@ proprio contenuto tramite stringhe di tipo bytes che non modificano in alcun mod
 Una differenza tra i file di testo e i file binari consiste nel fatto che i primi, a differenza dei secondi, codificano le 
 informazioni di fine riga.
 
+## Le funzioni
+
+Le funzioni raggruppano una serie di istruzioni volte a raggiungere un determinato scopo. Servono per riutilizzare il codice 
+scritto, riducendo di fatto la ridondanza, e garantendo la decomposizone funzionale. Per definire una funzione deve essere 
+utilizzato il nome def seguito dal nome della funzione e dagli eventuali argomenit. Ci sono anche funzioni un po' più 
+particolari come le funzioni lambda che creano e restituiscono un oggetto. Il termine ```yeld``` invia un oggetto al 
+chiamante e ne ricorda lo stato. I parametri delle funzioni vengono passati come riferimento e non vanno dichiarati, come 
+anche le variabili e i valori restituiti. 
+
+Quando scriviamo un programma in python, viene creato automaticamente uno _spazio dei nomi_, ovvero quel luogo entro cui 
+il nome esiste. In generale, le variabili dichiarate all'interno di una funzione sono associate a quello specifico spazio 
+dei nomi. Quindi i nomi definiti all'interno di un def potranno essere visti all'interno di quello spazio di definizione e 
+non potranno mai entrare in conflitto con nomi di variabili definite all'esterno.
+
+Se una variabile viene assegnata all'interno di una def, allora è una variabile _locale_ di quella funzione, mentre se viene 
+assegnata all'interno di una def che ne racchiuda un'altra, diventa una variabile _nonlocal_. Infine se una variabile viene 
+
+## I moduli
+In Python un concetto fondamentale è rappresentato dal modulo, diverso da quello di package. Ogni file è 
+un modulo e ogni modulo importa altri moduli per utilizzare i nomi in essi definiti. Con il termine ```import``` si importa 
+il copdice relativo ad un modulo, mentre con la sintassi ```from x import y``` si decide di importare una specifica funzione 
+da un determinato modulo.
+
+Importando un modulo, si importano di conseguenza tutto lo spazio globale, il quale viene associato all'oggetto del modulo importato. 
+L'operazione di importazione di un modulo si divide in tre fasi:
+- ricerca del modulo
+- compilazione del modulo
+- esecuzione del modulo.
+
+Python ha di default impostato la cartella principale dove risiede il main come cartella in cui cercare i moduli. Se 
+dovessimo aggiungere altre cartelle in cui cercare, possiamo definire la variabile ```PYTHONPATH```. Questa variabile va 
+modificata dal sistema operativo
+
 
 ## Curiosità di python
 Python è un linguaggio dotato di un interprete, il cui compito consiste di interpretare a run time ogni singola linea del 
