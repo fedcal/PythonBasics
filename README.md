@@ -159,6 +159,17 @@ A differenza degli altri linguaggi, Python non utilizza il punto e virgola per s
 identifica il fine riga con la fine dell'istruzione. Però il punto e virgola viene utilizzato quando ci sono più istruzioni 
 su una stessa riga.
 
+## OOP in Python
+
+Anche python è un linguaggio orientato agli oggetti. Non introdurrò la teoria relativa alla programmazione ad oggetti, ma 
+mi limiterò a portare qualche esempio nel file [classiOOP](classiOOP.py).
+
+Tutte le classi hanno un metodo ```__init__(self)``` che si occuperà di costruire l'oggetto e di avvolorare le proprietà che 
+vengono passate dopo l'attributo self. Self rappresenta l'oggetto stesso.
+
+Il metodo ```__str__(self)``` definisce come possiamo rappresentare l'oggetto sotto forma di stringa. Ciò non toglie che 
+possiamo accedere alle singole proprietà del metodo singolarmente attraverso dei metodi specifici
+
 ## Errori comuni
 
 **Impossibile caricare il file activate.ps1**
