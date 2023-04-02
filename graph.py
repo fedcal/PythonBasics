@@ -39,3 +39,6 @@ if __name__ == '__main__':
 
     # Ottenere il grado di un nodo
     print(dict(G.degree)[9])
+
+    # Percorsi da un nodo ad un altro
+    print(nx.shortest_path(G,8,5))
